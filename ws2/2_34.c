@@ -18,7 +18,10 @@
 int main(void) {
 	char name[30];
 
+	// get user input
 	scanf("%s", name);
+	
+	//print welcome message
 	printf("Hello %s, and welcome to CS Online!\n", name);
 	
 	return 0;
