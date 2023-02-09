@@ -26,9 +26,9 @@ int main(void){
 	scanf("%lf", &y);
 	scanf("%lf", &z);
 	printf("%0.2lf ", pow(x, z));
-	printf("%0.2lf ", pow(x, pow(y, z)));
-	printf("%0.2lf ", fabs(x-y));
-	printf("%0.2lf \n", sqrt(pow(x,z)));
+	printf("%0.2lf ", pow(x, pow(y, 2)));
+	printf("%0.2lf ", fabs(y));
+	printf("%0.2lf \n", sqrt(pow(x*y,z)));
 	
 	return 0;
 }
